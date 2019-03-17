@@ -1,0 +1,225 @@
+body {
+/*background-color: grey;
+  background-image: url("gambar/wrg.jpg");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 200px;
+  background-attachment: fixed;*/
+  font: 16px/28px arial,sans-serif;
+  background-image: url(gambar/restaurant_icons.png);
+  color: #191970;
+} 
+.container{
+	width: 800px;
+	margin: auto;
+	background-color: #DEB887;
+}
+.header {
+	padding: 2px;
+	padding-bottom: 5px;
+}
+.container2{
+  width: 100px;
+  margin: auto;
+  background-color: #DEB887;
+}
+.header.judul {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center; 
+}
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFE4B5;
+}
+
+
+.header li {
+  float: left;
+  border-right:1px solid salmon;
+  background-color: chocolate;
+}
+
+.header li a {
+  display: block;
+  color:  blue ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header li a:hover {
+  background-color: #E9967A;
+}
+/*.header ul li{
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+	background-color: salmon;
+}
+.header a {
+	text-decoration: none;
+	color: #DC143C;
+	padding: 3px;
+}
+.header a:hover {
+	background-color:#FFFACD;
+	color: orange; 
+}*/
+.hero {
+	height: 500px;
+	background-image: url("gambar/kedai.jpg");
+	background-size: inherit;
+	background-position: 0 -180px;
+	/*border-bottom: 5px solid salmon;
+	border-top: 5px solid salmon;*/
+}
+.baru{
+  background-image: url("gambar/restaurant_icons.jpg");
+}
+.footer {
+	/*background-color: #FFE4B5;*/
+	text-align: center;
+	font-size: 12px;
+}
+.footer.copy {
+	color: black;
+	text-align: center;
+	font-size: 12px;
+}
+.body2 {
+  font-family: sans-serif;
+   background-image: url(gambar/tes.jpg);
+}
+
+h1 {
+  text-align: center;
+  /*ketebalan font*/
+ /* font-weight: 300;
+  background-color:#DEB887;
+  width: 350px; 
+  margin: 20px auto;*/
+ /* width: 350px;
+  background: #DEB887;
+  meletakkan form ke tengah
+  margin: 80px auto;
+  padding: 20px 15px;
+  border-radius: 8px;*/
+}
+
+.lgnadmin{
+  text-align: center;
+  /*membuat semua huruf menjadi kapital*/
+  text-transform: uppercase;
+
+}
+
+.loginadmin {
+  width: 350px;
+  background: #DEB887;
+  /*meletakkan form ke tengah*/
+  margin: 100px auto;
+  padding: 30px 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+label {
+  font-size: 11pt;
+}
+
+.form_login {
+  /*membuat lebar form penuh*/
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+
+.tombol_login {
+  background: #D2691E;
+  color: white;
+  font-size: 11pt;
+  width: 49%;
+  border: none;
+  border-radius: 3px;
+  position: relative;
+  padding: 10px 10px;
+}
+
+
+.content {
+	background-color: #FFE4B5;
+	height: 600px;
+}
+#tabel {
+  padding-top: 20px;
+  margin-top: 20px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tabel td, #tabel th {
+  border: 0px solid chocolate ;
+  padding: 8px;
+}
+
+#tabel tr:nth-child(even){background-color: #DEB887;}
+
+#tabel tr:hover {background-color: salmon;}
+
+#tabel th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #DAA520;
+  color: white;
+}
+#tabel td a {
+  background-color:chocolate ;
+  color: white;
+  height: 12px;
+  width: 30px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.navigasi a:link {
+ background-color: chocolate;
+  color: white;
+  padding: 14px 25px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 12px;
+  display: inline-block;
+}
+.navigasi a:hover {
+   background-color: salmon; 
+/*  color: white;
+  /*height: 25px;
+  width: 40px;*/
+ /* padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;**//
+}
+
+
+/*h1{
+	font-family: fixedsys, monospace;
+	font-size: 20px;
+	position: relative;
+}*/
+/*
+#hitung button {
+
+}*/

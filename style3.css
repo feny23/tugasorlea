@@ -1,0 +1,28 @@
+.hero {
+	background-image: url("gambar/tes2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+	.footer {
+	background-color: black;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 310px;
+}
+	.footer.copy {
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	
+}
+.welcome {
+  font-family: ”Trebuchet MS”, Helvetica, fantasy;
+  color: white;
+  margin-left: 35%;
+  margin-top: 15%;
+  background-color: black;
+}
+
+	/*background-position: 0 -300px;*/
+	/*border-bottom: 5px solid salmon;
+	border-top: 5px solid salmon;*/
